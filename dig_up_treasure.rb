@@ -1,6 +1,12 @@
 require_relative "./lib/poem_charter"
+require 'json'
 
-puts PoemCharter.new("./data/*").run
+poem_data =  PoemCharter.new("./data/*").run
+puts poem_data
+
+File.open("poem_data.json", "w") do |f|
+  f.write(poem_data.to_json)
+end
 
 # Expected Output
 # {

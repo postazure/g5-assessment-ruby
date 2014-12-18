@@ -1,5 +1,5 @@
 # To Run: `$ ruby dig_up_treasure.rb`
-
+Outputs to terminal, and JSON (poem_data.json)
 
 # gSchool Ruby assessment
 
