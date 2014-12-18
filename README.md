@@ -1,3 +1,6 @@
+# To Run: `$ ruby dig_up_treasure.rb`
+
+
 # gSchool Ruby assessment
 
 You work for a book company that publishes poems.  You just inherited a treasure trove of poems in the public domain.
@@ -52,7 +55,7 @@ Write library code that can:
   "Robert Lee Frost" => {
     "The Lockless Door" => {
       verses: 5,
-      lines: 20, 
+      lines: 20,
     }
   }
 }
@@ -75,4 +78,3 @@ tonight in Possum Land
 ## Notes
 
 We will run this code on a computer that is not yours.  Please do not hard-code any full paths on your computer.
-
